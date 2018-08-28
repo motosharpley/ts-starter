@@ -5,4 +5,4 @@ function showHello(divId: string, name: string){
   element.innerText = sayHello(name);
 }
 
-showHello("greeting","Typescript");
+showHello("greeting","Typescript Watchify and Browserify!");
