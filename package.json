@@ -2,9 +2,13 @@
   "name": "ts-starter",
   "version": "1.0.0",
   "description": "typescript starter project with gulp and browserify ",
+  "repository": {
+    "url": "https://github.com/motosharpley/ts-starter.git"
+  },
   "main": "./dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/main.js"
   },
   "author": "Bryan Sharpley",
   "license": "MIT",
